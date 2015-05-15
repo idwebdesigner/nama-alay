@@ -5,16 +5,16 @@ function getName() {
         return Math.floor(Math.random() * (max - min)) + min;
     };
 
-    var prefixes = ["Untrustworthy ","Mild mannered ","The old boss ", "Night time ", "Auld saggy ", "Wet willy O'", "O'", "Ronald Mac ", "The wee bellboy ", "Thirsty ", "Hard working ",
-                    "Green guts ", "Best boy ", "Horny ", "Dirty ", "Ogre breath ", "Pug face ", "Disgruntled ", "Down'n'Out ", "Randy ", "Evil ", "Saint ", "Penny grabber "],
-        affixes = ["'s dirty satchel", "'s torn coat", "'s turnip juice", "berg", "'s bad breath", "'s thirsty throat", "'s milk", 
-                  "'s elixir", "'s magic shandy", "'s home wrecker", "'s pot pouri mix", "'s jail cell", "'s porridge juice", "'s liquid lunch", "'s morning glory", "'s evening in", "'s late night delight"],
+    var prefixes = ["Dengansepenuhhati ","Kanselalucayan","inhilangingatan", "Manusia Biasa ", "C'yank Dya ", "Wet willy O'", "O'", "Ronald Mac ", "The wee bellboy ", "bahagia-melihatmu Tersenyum ", "NggaSuka'BasaBasi-KalauMau Ngomong'Mending-ToThe Point'Aja ",
+                    "Emuach-Emuach ", "Si Piink-Queenchez ", "Tersenyum'Maniez ", "'Akan-Selalu ", "Cinta-iank'tulus ", "Pug face ", "Disgruntled ", "Down'n'Out ", "Randy ", "PengenBelajar Utk'merasakan-sebuah Keikhlasan ", "jenuh'Dengan-smuaini ", "Hatiya-Cenat'Cenut "],
+        affixes = ["' sedih lihat", "Hiks", "Meski'HatidanCinta-ini ", "Telah'qauLukai-GubRakk", "'LoversEdition", "'iank-prnhMrasakn", "'s milk", 
+                  "Sakityach'CintaDumay", "Tpi-ttapBngkit'danMncari", "SelaLu'MngingatMu", "'s pot pouri mix", "KaloDi-Pasar SuQa'Nyasar", "'s porridge juice", "'s liquid lunch", "'s morning glory", "Akan Trus'TinggalDi-HatinyaDlam Jrak'WaktuYang-CkupLama", "Kuinginmelukis'sinarmudihati"],
         randomise = randomNumber(3, 0),
         randyP = randomNumber(prefixes.length, 0),
         randyA = randomNumber(affixes.length, 0),
         randomPrefix = prefixes[randyP],
         randomAffix = affixes[randyA],
-        fonts = ["'Nothing You Could Do'", "'Rock Salt'", "'Ewert'", "'Limelight'","'Permanent Marker'","'Playball'","'Kaushan Script'"],
+        fonts = ["'Ewert'"],
         name = document.getElementById('userName').value,
         beerName;
   
