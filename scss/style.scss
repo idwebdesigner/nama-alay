@@ -1,0 +1,62 @@
+@import url(http://fonts.googleapis.com/css?family=Limelight|Ewert|Rock+Salt|Nothing+You+Could+Do|Permanent+Marker|Playball|Kaushan+Script);
+$bg: #FDF6E3;
+$grn: #2AA198;
+body {
+    background: $bg;
+}
+.beer-name {
+    font-size: 3em;
+    text-align: center;
+    margin-top: 90px;
+}
+.container {
+    margin: 0 auto;
+    text-align: center;
+    width: 650px;
+    position: relative;
+}
+input[type="text"] {
+    background: $bg;
+    padding: 10px;
+    margin-top: 30px;
+    border: none;
+    border-bottom: solid 2px #c9c9c9;
+    transition: border 0.3s;
+    &:focus {
+        border-bottom: solid 2px #969696;
+    }
+}
+.button {
+    background: $grn;
+    width: 180px;
+    height: 35px;
+    padding: 4px 0;
+    position: absolute;
+    left: 50%;
+    top: 300px;
+    transform: translateX(-50%) translateY(-50%);
+    border-radius: 3px;
+    p {
+        font-family: 'Roboto';
+        line-height: 1.5em;
+        font-size: 1.3em;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFF;
+        user-select: none;
+    }
+    &:hover {
+        cursor: pointer;
+    }
+    &:after {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 10%;
+        border-radius: 50%;
+        background-color: darken(#f1c40f, 20%);
+        opacity: 0.4;
+        bottom: -30px;
+    }
+}
